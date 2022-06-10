@@ -1,0 +1,45 @@
+[
+  {
+    "nombre": "Calibre",
+    "precio": "1200",
+    "foto": "https://cdn1.iconfinder.com/data/icons/construction-tool-line-foreman-equipment/512/Sliding_scale-128.png",
+    "id": 1,
+    "_locals": {}
+  },
+  {
+    "nombre": "Taladro",
+    "precio": "5000",
+    "foto": "https://cdn1.iconfinder.com/data/icons/construction-tool-line-foreman-equipment/512/Drill-128.png",
+    "id": 2
+  },
+  {
+    "nombre": "Cinta Métrica",
+    "precio": "800",
+    "foto": "https://cdn1.iconfinder.com/data/icons/construction-tool-line-foreman-equipment/512/Measuring_tape-128.png",
+    "id": 3
+  },
+  {
+    "nombre": "Serrucho",
+    "precio": "950",
+    "foto": "https://cdn1.iconfinder.com/data/icons/construction-tool-line-foreman-equipment/512/Saw-128.png",
+    "id": 4
+  },
+  {
+    "nombre": "Martillo",
+    "precio": "1000",
+    "foto": "https://cdn1.iconfinder.com/data/icons/construction-tool-line-foreman-equipment/512/Hammer-128.png",
+    "id": 5
+  },
+  {
+    "nombre": "Destornillador",
+    "precio": "700",
+    "foto": "https://cdn1.iconfinder.com/data/icons/construction-tool-line-foreman-equipment/512/Screwdriver-128.png",
+    "id": 6
+  },
+  {
+    "nombre": "Destornillador",
+    "precio": "700",
+    "foto": "https://cdn1.iconfinder.com/data/icons/construction-tool-line-foreman-equipment/512/Screwdriver-128.png",
+    "id": 7
+  }
+]

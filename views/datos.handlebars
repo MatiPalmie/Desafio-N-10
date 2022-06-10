@@ -1,0 +1,26 @@
+{{#if nombre}}
+<div class="bg-secondary bg-gradient">
+
+<ul style="list-style:none;" class="d-flex justify-content-evenly">
+    <li>{{nombre}}</li>
+    <li>$ {{precio}}</li>
+    <img src="{{foto}}" alt="{{nombre}}">
+</ul>
+<a href="/api/productos" class="btn btn-primary btn-sm">Ver los Productos</a>
+<a href="/" class="btn btn-primary btn-sm">Volver</a>
+
+</div>
+
+{{else}}
+<h1 class="text-center">Ingrese su producto</h1>
+<div class="bg-secondary bg-gradient">
+    <form action="/api/" method="post" class="text-center">
+        Nombre:<input type="text" name="nombre" required>
+        Precio:<input type="number" name="precio" required>
+        Foto:<input type="text" name="foto" required>
+        <button type="submit" class="btn btn-primary btn-sm">Enviar</button>
+    </form>
+</div>
+<a href="/api/productos" class="btn btn-primary btn-sm">Ver los Productos</a>
+{{/if}}
+

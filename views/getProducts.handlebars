@@ -1,0 +1,13 @@
+<div class="container bg-secondary bg-gradient">
+    <h1 class="text-center">Vista de Productos</h1>
+    {{#each list}}
+    <ul class="d-flex justify-content-evenly" style="list-style:none;">
+        <li class="">{{nombre}}</li>
+        <li class="">$ {{precio}}</li>
+        <img src="{{foto}}" alt="{{nombre}}" class="img-thumbnail">
+    </ul>
+    {{else}}
+    <p>Empty List</p>
+    {{/each}}
+    <a href="/" class="btn btn-primary btn-sm">Volver</a>
+</div>
